@@ -1,0 +1,32 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "for course work",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run scripts/deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shahzebimtiaz/MS-blockchain-bitcoin.git"
+  },
+  "keywords": [
+    "blockchain",
+    "bitcoin",
+    "Ethereum"
+  ],
+  "author": "Shahzeb Imtiaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shahzebimtiaz/MS-blockchain-bitcoin/issues"
+  },
+  "homepage": "https://github.com/Shahzebimtiaz/MS-blockchain-bitcoin#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@openzeppelin/contracts": "^4.9.3",
+    "eslint": "^8.53.0",
+    "hardhat": "^2.19.0",
+    "prettier": "3.1.0"
+  }
+}
